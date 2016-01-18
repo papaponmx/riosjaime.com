@@ -1,0 +1,16 @@
+/*this is a comment */
+/**
+Theme Name: Bootstrap to WordPress
+Author: Jaime Rios
+Author URI: http://www.web.riosjaime.com/
+Description: This is my first attempt to convert static Bootstrap site
+Version: 1.0
+License: GNU Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: bootstrap-to-wp
+
+This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
+ **/
+.admin-bar .navbar-fixed-top {
+  margin-top: 30px;
+}
