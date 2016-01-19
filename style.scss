@@ -1,0 +1,70 @@
+/*this is a comment */
+/**
+Theme Name: Bootstrap to WordPress
+Author: Jaime Rios
+Author URI: http://www.web.riosjaime.com/
+Description: This is my first attempt to convert static Bootstrap site
+Version: 1.0
+License: GNU Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: bootstrap-to-wp
+
+This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
+ **/
+
+.the-main-grid {
+  background-color: #333;
+  margin-bottom: 30px;
+  .first-row, .second-row, .third-row, .fourth-row {
+    background-color: white;
+    padding-bottom: 30px;
+  .web-square, #spanish{
+    background-color:  rgb(191, 60, 4);
+    color: white;
+  }
+  .software-square, #french{
+    background-color: #1e8cbe;
+    color: white;
+  }
+   #wp-text {
+    color: #1e8cbe;
+   }
+  #mexicanflag {
+    vertical-align: middle;
+  }
+  }
+
+ #wpimg {
+   background-color: #1e8cbe;
+   max-width: 200px;
+ }
+  .grid-img {
+  max-width: 100%;
+  max-height: 300px;
+  vertical-align: center;
+  padding: 10px;
+  }
+.text-square{
+  background-color: #333;
+  color: #ddd;
+}
+#seo {
+  color: rgb(191, 60, 4);
+}
+#mexicanflag {
+  border-radius: 100%;
+}
+#fb {
+  height: 100px;
+  vertical-align: baseline;
+}
+
+
+} //End of the-main-grid
+.footer .container button {
+  margin-bottom: 20px;
+}
+
+.header-content-inner{
+  margin-top: 20px;
+}
