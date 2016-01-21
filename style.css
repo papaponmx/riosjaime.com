@@ -11,3 +11,48 @@ Text Domain: bootstrap-to-wp
 
 This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
  **/
+.the-main-grid {
+  background-color: #333;
+  margin-bottom: 30px; }
+  .the-main-grid .first-row, .the-main-grid .second-row, .the-main-grid .third-row, .the-main-grid .fourth-row {
+    background-color: white;
+    padding-bottom: 30px; }
+    .the-main-grid .first-row .web-square, .the-main-grid .first-row #spanish, .the-main-grid .second-row .web-square, .the-main-grid .second-row #spanish, .the-main-grid .third-row .web-square, .the-main-grid .third-row #spanish, .the-main-grid .fourth-row .web-square, .the-main-grid .fourth-row #spanish {
+      background-color: #bf3c04;
+      color: white; }
+    .the-main-grid .first-row .software-square, .the-main-grid .first-row #french, .the-main-grid .second-row .software-square, .the-main-grid .second-row #french, .the-main-grid .third-row .software-square, .the-main-grid .third-row #french, .the-main-grid .fourth-row .software-square, .the-main-grid .fourth-row #french {
+      background-color: #1e8cbe;
+      color: white; }
+    .the-main-grid .first-row #wp-text, .the-main-grid .second-row #wp-text, .the-main-grid .third-row #wp-text, .the-main-grid .fourth-row #wp-text {
+      color: #1e8cbe; }
+  .the-main-grid #wpimg {
+    background-color: #1e8cbe;
+    max-width: 200px; }
+  .the-main-grid .grid-img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: center;
+    padding: 0px;
+    margin: 0px; }
+  .the-main-grid .text-square {
+    background-color: #333;
+    color: #ddd; }
+  .the-main-grid #seo {
+    color: #bf3c04; }
+  .the-main-grid #fb, .the-main-grid #twitter, .the-main-grid #github {
+    height: 50px;
+    vertical-align: baseline; }
+  .the-main-grid .grid-div, .the-main-grid #keyboard {
+    height: 20vh; }
+
+.footer .container button {
+  margin-bottom: 20px; }
+  .footer .container button .glyphicon-envelope {
+    margin-left: 8px; }
+
+.header-content-inner {
+  margin-top: 20px; }
+  .header-content-inner .glyphicon {
+    font-size: 100px; }
+
+/*# sourceMappingURL=style.css.map */
