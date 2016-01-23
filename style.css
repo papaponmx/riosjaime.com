@@ -50,6 +50,10 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
   .footer .container button .glyphicon-envelope {
     margin-left: 8px; }
 
+.portfolio-piece img {
+  height: 140px;
+  max-width: 100%; }
+
 .header-content-inner {
   margin-top: 20px; }
   .header-content-inner .glyphicon {
