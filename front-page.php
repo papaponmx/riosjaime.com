@@ -69,16 +69,11 @@
 
 
 <!-- This is the button with the contact form -->
-<footer class="footer">
   <div class="container grid-div">
 
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg contact-btn center-block" data-toggle="modal" data-target="#myModal" id="contact-btn">
-      Contact me <span class="glyphicon glyphicon-envelope"></span>
-    </button>
 
   </div>
-</footer>
+
 
 
 <!-- Modal -->
@@ -98,11 +93,42 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
       </div>
     </div>
   </div>
 </div>
+
+<!--Ends MODAL -->
+
+
+<div class="row fourth-row about-div">      <!--STARTS FOURTH ROW-->
+<div class="col-sm-6 grid-div hidden-xs"  id="french">
+ <h3>OUI <br>Je parle Francais </h3>
+</div>
+<div class="col-sm-6 grid-div hidden-xs" id="spanish">
+  <h3 >Sí<br>Yo hablo español </h3>
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-12s text-square text-justify grid-div" id="about-div">
+
+   <img class="grid-img nested-grid-img   img-circle text-right" src="<?php echo get_template_directory_uri(); ?>/img/profile2.jpg" alt="This is my profile picture" id="smile">
+     <h2 class="title" id="about">  ABOUT ME</h2>
+  <h3>I am a Front End Developer/Web Designer based in Mexico City, Mexico. I am also a college student, public speaker, avid reader. I enjoy learning languages, dancing, traveling and meeting new people. <br><br> </h3>
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary btn-lg contact-btn center-block" data-toggle="modal" data-target="#myModal" id="contact-btn">
+    Contact me <span class="glyphicon glyphicon-envelope"></span>
+  </button>
+<br><br>
+
+
+
+
+</div>
+</div> <!--ENDS 5th row -->
+
 
 
 
