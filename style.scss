@@ -12,12 +12,16 @@ Text Domain: bootstrap-to-wp
 This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
  **/
 
+$height : 43vh;
+$color-secundary: rgb(28, 27, 27);
+$font-secundary: #f4f4f4;
 .the-main-grid {
   background-color: #333;
   margin-bottom: 30px;
   .first-row, .second-row, .third-row, .fourth-row {
     background-color: white;
     padding-bottom: 30px;
+    width: 100%;
   .web-square, #spanish{
     background-color:  rgb(191, 60, 4);
     color: white;
@@ -29,20 +33,19 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
    #wp-text {
     color: #1e8cbe;
    }
-  #mexicanflag {
-    vertical-align: middle;
-  }
+
   }
 
  #wpimg {
    background-color: #1e8cbe;
    max-width: 200px;
  }
-  .grid-img {
+  .grid-img{
   max-width: 100%;
-  max-height: 300px;
+  max-height: 100%;
   vertical-align: center;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   }
 .text-square{
   background-color: #333;
@@ -51,20 +54,113 @@ This theme, like WordPress, is licensed under the GPL. Use it to make something 
 #seo {
   color: rgb(191, 60, 4);
 }
-#mexicanflag {
-  border-radius: 100%;
-}
-#fb {
-  height: 100px;
+
+#fb, #twitter, #github {
+  height: 50px;
   vertical-align: baseline;
 }
-
+.grid-div, #keyboard{
+  height: $height;
+}
 
 } //End of the-main-grid
 .footer .container button {
   margin-bottom: 20px;
+  .glyphicon-envelope {
+    margin-left: 8px;
+  }
+
 }
+.portfolio-piece img {
+  width: 140px;
+  max-width: 100%;
+}
+.portfolio-image p a img {
+  max-width: 100%;
+  height: 150px;
+}
+.prev-next{
+  font-size: 30px;
+  margin-top: 35px;
+  text-align: right;
+}
+
+
 
 .header-content-inner{
   margin-top: 20px;
+.glyphicon {
+    font-size: 100px;
+  }
+
+}
+
+
+.portfolio-header, #about-div {
+  color: $font-secundary;
+  background-color: $color-secundary;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  max-width: 100%;
+}
+#about-div {
+  margin-bottom: 0;
+}
+
+#french{
+background-color: #1e8cbe;
+color: white;
+}
+
+#spanish{
+  background-color:  rgb(191, 60, 4);
+color: white;
+}
+
+#smile {
+  padding-top: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+
+}
+
+
+//MEDIA QUERY
+@media (max-widht:540px){
+
+  #about-div, #spanish, #french {
+    margin: -30px;
+  padding: 5px;
+  }
+
+
+  .prev-next{
+    margin-top: 15px;
+    font-size: 18px;
+  }
+
+
+
+}
+
+*{
+  max-width: 100%;
+}
+
+h2, h3 {
+  padding: 1px 30px;
+}
+.navbar {
+  background-color: #222;
+  padding-bottom: 5px;
+}
+
+@media (min-width:780px) {
+  .portfolio-piece img {
+    height: 140px;
+  }
+
 }
