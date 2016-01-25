@@ -4,6 +4,8 @@
 
     <?php wp_footer(); ?>
 
+    
+
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

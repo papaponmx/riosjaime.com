@@ -1,21 +1,37 @@
 
 <?php get_header(); ?>
 
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>WEB DESIGNER / FRONT-END DEVELOPER / UX DESIGNER</h1>
+            <hr>
+            <h2>Hello, I'm Jaime. Specializing in web design, front-end development and digital media.</h2>
+            <h2><a href="#about" class="btn btn-primary page-scroll">See more</a></h2>  <h2><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#myModal" data-toggle="tooltip" data-placement="left" title="I do read everything!" id="contact-btn">
+                Contact me </a></h2>
+        </div>
+    </div>
+</header>
 
+
+<!--This is a loop that allows me to replace the container above and set it up dinamicly with WP
 
      <header>
          <div class="header-content">
              <div class="header-content-inner">
 
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+                <?php // if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-                  <?php the_content(); ?>
+                  <?php //the_content(); ?>
 
 
-                 <<?php endwhile; endif; ?>
+                 <?php // endwhile; endif; ?>
             </div>
          </div>
      </header>
+
+
+ HERE  ENDS THE FIRST LOOP -->
 
 <!--Here comes the awesome grid this should loop trough the posts, creating a 3 columns grid-->
 
@@ -128,9 +144,6 @@
 
 </div>
 </div> <!--ENDS 5th row -->
-
-
-
 
 
 
