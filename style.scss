@@ -1,166 +1,78 @@
-/*this is a comment */
-/**
-Theme Name: Bootstrap to WordPress
-Author: Jaime Rios
-Author URI: http://www.web.riosjaime.com/
-Description: This is my first attempt to convert static Bootstrap site
-Version: 1.0
-License: GNU Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
-Text Domain: bootstrap-to-wp
 
-This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
- **/
-
-$height : 43vh;
-$color-secundary: rgb(28, 27, 27);
-$font-secundary: #f4f4f4;
-.the-main-grid {
-  background-color: #333;
-  margin-bottom: 30px;
-  .first-row, .second-row, .third-row, .fourth-row {
-    background-color: white;
-    padding-bottom: 30px;
-    width: 100%;
-  .web-square, #spanish{
-    background-color:  rgb(191, 60, 4);
-    color: white;
-  }
-  .software-square, #french{
-    background-color: #1e8cbe;
-    color: white;
-  }
-   #wp-text {
-    color: #1e8cbe;
-   }
-
-  }
-
- #wpimg {
-   background-color: #1e8cbe;
-   max-width: 200px;
- }
-  .grid-img{
-  max-width: 100%;
-  max-height: 100%;
-  vertical-align: center;
-  padding: 0px;
-  margin: 0px;
-  }
-.text-square{
-  background-color: #333;
-  color: #ddd;
-}
-#seo {
-  color: rgb(191, 60, 4);
-}
-
-#fb, #twitter, #github {
-  height: 50px;
-  vertical-align: baseline;
-}
-.grid-div, #keyboard{
-  height: $height;
-}
-
-} //End of the-main-grid
-.footer .container button {
-  margin-bottom: 20px;
-  .glyphicon-envelope {
-    margin-left: 8px;
-  }
-
-}
-.portfolio-piece img {
-  width: 140px;
-  max-width: 100%;
-}
-.portfolio-image p a img {
-  max-width: 100%;
-  height: 150px;
-}
-.prev-next{
-  font-size: 30px;
-  margin-top: 35px;
-  text-align: right;
-}
+$primary-color: #0578a3;
+$secondary-color: #e45011;
+$primary-font: white;
+$secondary-font: #222;
 
 
-
-.header-content-inner{
-  margin-top: 20px;
-.glyphicon {
-    font-size: 100px;
-  }
-
-}
-
-
-.portfolio-header, #about-div {
-  color: $font-secundary;
-  background-color: $color-secundary;
-  margin-bottom: 20px;
+.hero-img{
+  height: 100%;
+  background-color: $primary-color;
+  display: flex;
+.content {
+  width: 100%;
+  margin: auto;
+  align-self: center;
+  padding: 10px;
+  color: $primary-font;
+  h1 {
   font-weight: bolder;
+}
+  button {
+    background-color:transparent;
+    margin: 30px 5px;
+    border-color: white;
+    color: white;
+    border-radius: 10px;
+    border-width: 3px;
+
+
+  }
+  #contact{
+    font-weight: bolder;
+    color: $primary-color;
+    background-color: white;
+  }
+  #see-more {
+    color: white;
+    background-color: $secondary-font;
+    border-color: $secondary-font;
+  }
+
+}
+} //ENDS .hero-img
+
+#services h1{
+  color: $primary-color;
+  font-weight: bolder;
+}
+#webdesign {
+h3{
+  background-color: $primary-color;
+  color: white;
+}
+img {
+  width: 150px;
+  height: 150px;
   max-width: 100%;
+  padding: 10px;
+  border-color: $primary-color;
 }
-#about-div {
-  margin-bottom: 0;
+span {
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 6px;
+  border-color: $primary-color;
 }
-
-#french{
-background-color: #1e8cbe;
-color: white;
 }
-
-#spanish{
-  background-color:  rgb(191, 60, 4);
-color: white;
-}
-
-#smile {
-  padding-top: 15px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 200px;
-  width: 200px;
-
+#wp {
+  margin-top: 10px;
+  color: white;
+  background-color: $secondary-color;
 }
 
-
-//MEDIA QUERY
-@media (max-widht:540px){
-
-  #about-div, #spanish, #french {
-    margin: -30px;
-  padding: 5px;
-  }
-
-
-  .prev-next{
-    margin-top: 15px;
-    font-size: 18px;
-  }
-
-
-
-}
-
-*{
-  max-width: 100%;
-}
-
-h2, h3 {
-  padding: 1px 30px;
-}
-.navbar {
-  background-color: #222;
-  padding-bottom: 5px;
-}
-
-@media (min-width:780px) {
-  .portfolio-piece img {
-    height: 140px;
-  }
-
+#seo {
+  margin: 0;
+  color: white;
+  background-color: $secondary-font;
 }
