@@ -32,8 +32,8 @@
     </div>
     <div class="top-bar-right">
       <ul class="menu">
-        <li><a href="#">This is a link</a></li>
-        <li><button type="button" class="button">Contact Me</button></li>
+        <li><a href="#">About</a></li>
+        <li><button type="button" class="button" data-open="contactmodal">Contact Me</button></li>
       </ul>
     </div>
   </nav>
@@ -44,15 +44,15 @@
 		<h1>WEB DESIGNER / FRONT-END DEVELOPER / UX DESIGNER</h1>
     <hr><h3>Hello, I'm Jaime. Specializing in web design, front-end development and digital media.</h3>
 
-      <button class="button" id="see-more"href="#">See more!</button>
+      <button class="button" id="see-more"><a href="#services">See more!</a></button>
       <button class="button" id="about" href="#">Resume <i class="fi-page"></i></button>
-      <button class="button" id="contact" href="#">Contact <i class="fi-mail"></i></button>
+      <button class="button" id="contact" data-open="contactmodal">Contact <i class="fi-mail"></i></button>
 
 
 	</div>
 </div>
 
-<div class="" id="services">
+<div id="services">
 <h1 class="text-center">Some of my work</h1>
 </div>
 
@@ -61,36 +61,92 @@
   <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Please have a drink"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda can"/></span>
   </div>
 
-<div class="text-center row" id="webdesign">
+
+  <div class="text-center" id="what">
+  <h1>What can I do for <span>you</span>?</h1>
+  </div>
+  <div class="text-center"id="what-description">
+    <br>
+    <h2> Responsive Development</h2><i class="fi-monitor fi"> </i><i class="fi-laptop fi"></i>  <i class="fi-mobile fi"></i>
+    <blockquote>Awesome, no matter where you are.</blockquote>
+    <h2>Website Optimization </h2>
+
+      <i class="fi-database fi"></i> <i class="fi-clock fi"></i> <i class="fi-graph-trend fi"></i>
+      <blockquote>Make your website faster.</blockquote>
+      <h2>Designs & Interfaces </h2>
+      <i class="fi-torsos-all fi"></i> <i class="fi-heart fi"></i> <i class="fi-check fi"></i>
+      <blockquote id="ux">Enhanced UX we all love.</blockquote>
+
+  </div>
+
+<!-- This logo is not so relevant for the user, it just enhances the UX
+<div class="text-center row" id="ship">
   <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Say Aaaarrrrgggghhhh!"><img src="img/ship.png" alt="This is a ship logo" id="ship-logo"/></span>
-  <h3>Digital Illustration</h3>
 
 </div>
 
-<div class="text-center" id="wp">
-<h3>WordPress Theme Development</h3>
+
+-->
+<div class="text-center" id="who">
+<h1>Who I am</h1>
+
+<img id="profile"src="img/profile2.jpg" alt="This is my profile picture" />
+<p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site.<br>My work is driven by equal parts passion and complete nerddom.
+</p>
+
+      <button class="button" id="contact" href="#" data-open="contactmodal">Contact <i class="fi-mail"></i></button>
+
+
 </div>
-<div class="text-center" id="seo">
-<h3>Search Engine Optimization <i class="fi-magnifying-glass"></i></h3>
-</div>
-<div class="text-center" id="access">
-<h3>Accesibility Optimization <i class="fi-universal-access"></i></h3>
-</div>
-<div class="text-center" id="resume">
-<a href="#"><h3>Download my resume <i class="fi-page"></i></h3></a>
-</div>
+
 
 <!--Here is the footer yo! -->
+<footer class="footer text-center">
+	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
 
-
-<footer class="footer">
-	<h4 class="text-center">My social networks<br><a class="link" href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a class="link" href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a class="link" href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a class="link" href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
-  </h4>
 </footer>
 
+<!--This is the code for the modal -->
+<div class="reveal" id="contactmodal" data-reveal>
+  <h3>Want to discuss your website plans? Have an offer I couldn't refuse? Just say it.</h3>
+
+<!--Here starts the form-->
+  <section class="section">
+            <div class="content" data-slug="panel1">
+              <form method="post" action="contact-process.php">
+                <div class="row collapse">
+                  <div class="large-2 columns">
+                    <label class="inline">Your Name</label>
+                  </div>
+                  <div class="large-10 columns form-group">
+                    <input type="text" id="name" placeholder="What's your name?" required>
+                  </div>
+                </div>
+                <div class="row collapse form-group">
+                  <div class="large-2 columns">
+                    <label class="inline"> Your Email</label>
+                  </div>
+                  <div class="large-10 columns form-group">
+                    <input type="email" id="email" placeholder="youremail@example.com" required>
+                  </div>
+                </div>
+                <label>What's up?</label>
+                <textarea id="message"
+
+                rows="4" required></textarea>
+                <button type="submit" class="radius button" id="form-submit">Submit</button>
+              </form>
+                <div id="msgSubmit" class="text-center hide">Message Submitted!</div>
+            </div>
+          </section>
 
 
 
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
 
 
 

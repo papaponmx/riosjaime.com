@@ -4,9 +4,15 @@ $secondary-color: #e45011;
 $primary-font: white;
 $secondary-font: #222;
 
+.top-bar, .top-bar ul {
+background-color: $secondary-font;
+color: $primary-font;
+
+}
+
 
 .hero-img{
-  height: 85%;
+  height: 95%;
   background-color: $primary-color;
   display: flex;
 .content {
@@ -26,20 +32,21 @@ $secondary-font: #222;
     border-radius: 10px;
     border-width: 3px;
 
-
-  }
-  #contact{
+}
+button #contact{
     font-weight: bolder;
     color: $primary-color;
     background-color: white;
   }
-  #see-more {
+
+#see-more {
     color: white;
     background-color: $secondary-font;
     border-color: $secondary-font;
   }
 
 }
+
 } //ENDS .hero-img
 
 #services h1{
@@ -49,13 +56,14 @@ $secondary-font: #222;
 .soda{
   background-color: $primary-color;
   padding: 10px 0px;
-  margin-bottom: 15px;
-   span img {
+ span img {
   max-height: 150px;
 
   }
 }
-#webdesign {
+
+/** This should be in a media query next to the soda
+#ship {
   h3{
     background-color: $primary-color;
     color: white;
@@ -74,14 +82,77 @@ $secondary-font: #222;
     border-color: $primary-color;
   }
 }
-#wp {
-    margin-top: 10px;
-    color: white;
-    background-color: $secondary-color;
+
+**/
+
+#what, #what-description, {
+  color: $primary-color;
+  background-color: $secondary-font;
+  h1{
+    padding-top: 10px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    span {
+    color: $secondary-color;
+    }
+  }
+  .fi{
+  font-size: 2.5rem;
+  }
+  #ux{
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+  }
+}
+
+
+#who{
+  background: $primary-color;
+  color: white;
+  #profile{
+    border-radius: 100%;
+  }
+  h1{
+    padding-top: 10px;
+    font-weight: bolder;
+  }
+  p {
+    font-size: 1.2em;
+    padding: 20px;
+  }
+  span {
+    font-weight: bold;
+    color: $secondary-font;
   }
 
-#seo {
-  margin: 0;
-  color: white;
-  background-color: $secondary-font;
+  button{
+    background-color:transparent;
+    margin: 30px 5px;
+    border-color: white;
+    color: $primary-color;
+    border-radius: 10px;
+    border-width: 3px;
+    font-weight: bolder;
+    background-color: white;
+  }
+
+
+  }
+
+footer{
+  background: $secondary-font;
+  color: #2199e8;
+  h4{
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  a i{
+      font-size: 2rem;
+    }
+    a:hover{
+      color: white;
+    }
+
+
+
 }
