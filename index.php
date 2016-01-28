@@ -9,8 +9,11 @@
   <title>Freelance Web Designer</title>
 
   <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/foundation.css">
+  <!--<link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="icon"
+        type="image/png"
+        href="http://riosjaime.com/favicon.ico">
+  <link rel="stylesheet" href="css/foundation.min.css">
   <link rel="stylesheet" href="css/foundation-icons.css">
 
   <!-- My styles -->
@@ -32,8 +35,9 @@
     </div>
     <div class="top-bar-right">
       <ul class="menu">
-        <li><a href="#">About</a></li>
-        <li><button type="button" class="button" data-open="contactmodal">Contact Me</button></li>
+        <li><a href="#what">Services</a></li>
+        <li><a href="#who">About</a></li>
+        <li><a id="contact" data-open="contactmodal">Contact me</a></li>
       </ul>
     </div>
   </nav>
@@ -44,26 +48,28 @@
 		<h1>WEB DESIGNER / FRONT-END DEVELOPER / UX DESIGNER</h1>
     <hr><h3>Hello, I'm Jaime. Specializing in web design, front-end development and digital media.</h3>
 
-      <button class="button" id="see-more"><a href="#services">See more!</a></button>
-      <button class="button" id="about" href="#">Resume <i class="fi-page"></i></button>
-      <button class="button" id="contact" data-open="contactmodal">Contact <i class="fi-mail"></i></button>
+      <div class="text-center">
 
+      <button class="button" id="see-more"><a href="#services">See more!</a></button>
+      <button class="button" id="contact" data-open="contactmodal">Contact me</button>
+
+      </div>
 
 	</div>
 </div>
 
 <div id="services">
-<h1 class="text-center">Some of my work</h1>
+<h1 class="text-center">Do you fancy a drink?</h1>
 </div>
 
   <div class="soda text-center">
 
-  <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Please have a drink"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda can"/></span>
+  <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="So refreshing!"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda can"/></span>
   </div>
 
 
   <div class="text-center" id="what">
-  <h1>What can I do for <span>you</span>?</h1>
+  <h1>What can I do <span>for you</span></h1>
   </div>
   <div class="text-center"id="what-description">
     <br>
@@ -76,6 +82,8 @@
       <h2>Designs & Interfaces </h2>
       <i class="fi-torsos-all fi"></i> <i class="fi-heart fi"></i> <i class="fi-check fi"></i>
       <blockquote id="ux">Enhanced UX we all love.</blockquote>
+
+            <button class="button" id="about" href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</button>
 
   </div>
 
@@ -91,10 +99,10 @@
 <h1>Who I am</h1>
 
 <img id="profile"src="img/profile2.jpg" alt="This is my profile picture" />
-<p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site.<br>My work is driven by equal parts passion and complete nerddom.
+<p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site. My work is driven by equal parts passion and complete nerddom.
 </p>
 
-      <button class="button" id="contact" href="#" data-open="contactmodal">Contact me<i class="fi-mail"></i></button>
+      <button class="button" id="contact" href="#" data-open="contactmodal">Contact me</button>
 
 
 </div>
@@ -102,7 +110,7 @@
 
 <!--Here is the footer yo! -->
 <footer class="footer text-center">
-	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
+	<h3 class="">My social networks  </h3><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
 
 </footer>
 

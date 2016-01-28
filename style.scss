@@ -33,7 +33,7 @@ color: $primary-font;
     border-width: 3px;
 
 }
-button #contact{
+#contact{
     font-weight: bolder;
     color: $primary-color;
     background-color: white;
@@ -98,10 +98,20 @@ button #contact{
   }
   .fi{
   font-size: 2.5rem;
+  padding: 0 10px;
   }
   #ux{
     padding-bottom: 15px;
     margin-bottom: 0px;
+  }
+  button{
+    margin: 30px 5px;
+    border-color: $primary-color;
+    color: $primary-color;
+    border-radius: 10px;
+    border-width: 3px;
+    font-weight: bolder;
+    background-color: $secondary-font;
   }
 }
 
@@ -128,7 +138,7 @@ button #contact{
   button{
     background-color:transparent;
     margin: 30px 5px;
-    border-color: white;
+    border-color: $primary-color;
     color: $primary-color;
     border-radius: 10px;
     border-width: 3px;
@@ -142,12 +152,13 @@ button #contact{
 footer{
   background: $secondary-font;
   color: #2199e8;
-  h4{
+  h3{
     font-weight: bold;
     padding-top: 15px;
   }
   a i{
-      font-size: 2rem;
+      font-size: 2.2rem;
+      padding: 0 10px;
     }
     a:hover{
       color: white;
