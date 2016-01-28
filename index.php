@@ -1,3 +1,19 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @papaponmx
+ Unwatch 1
+  Star 0
+  Fork 0 papaponmx/web.riosjaime.com
+ Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
+Branch: foundation Find file Copy pathweb.riosjaime.com/index.php
+155a8d4  17 minutes ago
+@papaponmx papaponmx Google Analytics scrit was added in the end and SEO tags have been added
+1 contributor
+RawBlameHistory    173 lines (133 sloc)  6.67 KB
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" >
@@ -93,10 +109,7 @@
 <!-- This logo is not so relevant for the user, it just enhances the UX
 <div class="text-center row" id="ship">
   <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Say Aaaarrrrgggghhhh!"><img src="img/ship.png" alt="This is a ship logo" id="ship-logo"/></span>
-
 </div>
-
-
 -->
 <div class="text-center" id="who">
 <h1>Who I am</h1>
@@ -158,15 +171,17 @@
     $(document).foundation();
   </script>
   <!--This is the Google Analytics code -->
-  +    <script>
- +      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
- +      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- +      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- +      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
- +
- +      ga('create', 'UA-71409801-2', 'auto');
- +      ga('send', 'pageview');
- +
- +    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71409801-2', 'auto');
+      ga('send', 'pageview');
+
+     </script>
 </body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
