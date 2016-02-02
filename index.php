@@ -51,80 +51,106 @@
 <div class="hero">
 	<div class="hero-text">
 		<h1>WEB DESIGNER / FRONT-END <span>DEVELOPER</span> / UX <span>DESIGNER</span></h1>
-    <hr><h3>Hello, I'm Jaime. I turn black coffee and pizza into awesome websites.</h3>
+    <hr><h3>Hello, I'm Jaime. I turn black coffee and pizza into  engaging websites.</h3>
 
       <div class="text-center">
 
-        <button class="button" id="see-more"><a href="#services">See more!</a></button>
+        <button class="button" id="see-more"><a href="#what">See more!</a></button>
         <button class="button" id="contact" data-open="contactmodal">Contact me</button>
       </div>
 
 	</div>
 </div>
 
-<div id="services">
-<h1 class="text-center">Do you fancy a drink?</h1>
-</div>
-
-
-<div class="drinks-area text-center">
-    <div class="">
-
-    </div>
-
-    <div class="" id="soda">
-
-      <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="So refreshing!"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda-can"/></span>
-    </div>
-
-
-  <?php
-  /*
-  if ($a > $b) {
-      echo "a is bigger than b";
-  } elseif ($a == $b) {
-      echo "a is equal to b";
-  } else {
-      echo "a is smaller than b";
-  } */
-  ?>
-    <div class="">
-
-    </div>
-
-  </div>
 
 
   <div class="text-center" id="what">
-  <h1>What can I do <span>for you</span></h1>
+  <h1>What I <span>can do</span> for you</h1>
   </div>
-  <div class="text-center"id="what-description">
+  <div class="text-center row"id="what-description">
     <br>
-    <h2> Responsive Development</h2><i class="fi-monitor fi"> </i><i class="fi-laptop fi"></i>  <i class="fi-mobile fi"></i>
-    <blockquote>Awesome, no matter where you are.</blockquote>
-    <h2>Website Optimization </h2>
 
-      <i class="fi-database fi"></i> <i class="fi-clock fi"></i> <i class="fi-graph-trend fi"></i>
+    <div class="large-4 columns">
+      <h2>Mobile Friendly</h2><i class="fi-monitor fi show-for-medium"> </i><i class="fi-laptop fi"></i>  <i class="fi-mobile fi show-for-medium"></i>
+      <blockquote>Awesome, wherever you are.</blockquote>
+    </div>
+
+    <div class="large-4 columns">
+      <h2>Website Optimization </h2>
+      <i class="fi-database fi"></i> <i class="fi-clock fi"></i> <i class="fi-graph-trend fi show-for-medium"></i>
       <blockquote>Make your website faster.</blockquote>
-      <h2>Designs & Interfaces </h2>
-      <i class="fi-torsos-all fi"></i> <i class="fi-heart fi"></i> <i class="fi-check fi"></i>
-      <blockquote id="ux">Enhanced UX we all love.</blockquote>
+    </div>
 
-            <button class="button" id="about" href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</button>
+    <div class="large-4 columns">
+      <h2>Designs & Interfaces </h2>
+      <i class="fi-torsos-all fi show-for-medium"></i> <i class="fi-heart fi"></i> <i class="fi-check fi show-for-medium"></i>
+      <blockquote id="ux">Enhanced UX we all love.</blockquote>
+    </div>
 
   </div>
+
+  <div class="text-center resume-button-c">
+    <button class="button" id="resume-button"><a  href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</a></button>
+  </div>
+
+  <div id="services">
+  <h1 class="text-center">Do you fancy a drink?</h1>
+  </div>
+
+
+  <div class="drinks-area text-center">
+      <div class="">
+
+      </div>
+
+      <div class="" id="soda">
+
+        <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="So refreshing!"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda-can"/></span>
+      </div>
+
+
+    <?php
+    /*
+    if ($a > $b) {
+        echo "a is bigger than b";
+    } elseif ($a == $b) {
+        echo "a is equal to b";
+    } else {
+        echo "a is smaller than b";
+    } */
+    ?>
+      <div class="">
+
+      </div>
+
+    </div>
+
+
+
+
+
 
 <!-- This logo is not so relevant for the user, it just enhances the UX
 <div class="text-center row" id="ship">
   <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Say Aaaarrrrgggghhhh!"><img src="img/ship.png" alt="This is a ship logo" id="ship-logo"/></span>
 </div>
 -->
-<div class="text-center" id="who">
+
+
+
+
+
+<div class="text-center row" id="who">
 <h1>Who I am</h1>
 
-<img id="profile"src="img/profile2.jpg" alt="This is my profile picture" />
-<p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site. My work is driven by equal parts passion and complete nerddom.
-</p>
+<div class="medium-3 columns">
+
+  <img id="profile"src="img/profile2.jpg" alt="This is my profile picture" />
+</div>
+<div class="medium-9 columns">
+  <p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site. My work is driven by equal parts passion and complete nerddom.
+    </p>
+</div>
 
       <button class="button" id="contact" href="#" data-open="contactmodal">Contact me</button>
 
@@ -134,8 +160,7 @@
 
 <!--Here is the footer yo! -->
 <footer class="footer text-center">
-	<h3 class="">My social networks  </h3><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
-
+	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
 </footer>
 
 <!--This is the code for the modal -->

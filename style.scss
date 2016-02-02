@@ -1,12 +1,15 @@
-
+//variables
 $primary-color: #0578a3;
 $secondary-color: #e45011;
 $primary-font: white;
 $secondary-font: #222;
+$pinkish: #e45;
+$quote-gray: #8a8a8a;
 
 .top-bar, .top-bar ul {
+font-weight: bolder;
 background-color: $secondary-font;
-color: $primary-font;
+color: $secondary-color;
 
 }
 a {
@@ -17,11 +20,10 @@ color: $primary-color;
 //Styles for mobile
 
 .hero{
+  display: flex;
   height: 95%;
   background-color: $primary-color;
-    background: linear-gradient (rgba(5, 120, 163, 0), rgba(221, 221, 221, 1));
-  display: flex;
-  //Here starts the background.
+  text-shadow: 2px 2px 8px $secondary-font;
 .hero-text {
   width: 100%;
   margin: auto;
@@ -37,32 +39,46 @@ color: $primary-color;
 }
   button {
     background-color:transparent;
-    margin: 30px 5px;
     border-color: white;
     color: white;
     border-radius: 10px;
     border-width: 3px;
-
 }
 #contact{
     font-weight: bolder;
     color: $primary-color;
     background-color: white;
   }
+  #contact:hover {
+    background-color: $primary-color;
+    color: white;
+  }
 
 #see-more {
-    color: white;
-    background-color: $secondary-font;
+    background-color: $secondary-color;
     border-color: $secondary-font;
+  a {
+    color: $secondary-font;
+    font-weight: bold;
   }
+}
+#see-more:hover{
+  background-color: $secondary-font;
+  a {
+    color: $secondary-color;
+  }
+}
 
 }
 
 } //ENDS .hero-img
 
 #services h1{
-  color: $primary-color;
+  color: white;
   font-weight: bolder;
+  background-color: $pinkish;
+  text-shadow: 2px 2px 8px #222;
+  margin-bottom: 0;
 }
 .drinks-area #soda {
   background-color: $primary-color;
@@ -96,13 +112,17 @@ color: $primary-color;
 
 **/
 
-#what, #what-description, {
+#what, #what-description,
+.resume-button-c {
   color: $primary-color;
   background-color: $secondary-font;
+  display: flex;
+  justify-content: center;
   h1{
     padding-top: 10px;
     font-weight: bolder;
     margin-bottom: 0px;
+    text-shadow: 1px 1px 5px black;
     span {
     color: $secondary-color;
     }
@@ -115,27 +135,39 @@ color: $primary-color;
     padding-bottom: 15px;
     margin-bottom: 0px;
   }
-  button{
-    margin: 30px 5px;
-    border-color: $primary-color;
-    color: $primary-color;
-    border-radius: 10px;
-    border-width: 3px;
-    font-weight: bolder;
-    background-color: $secondary-font;
+  blockquote {
+  border-left: 0;
   }
 }
 
 
+.resume-button-c #resume-button{
+  margin: 30px 5px;
+  border-color: $primary-color;
+  color: $primary-color;
+  border-radius: 10px;
+  border-width: 3px;
+  font-weight: bolder;
+  background-color: $secondary-font;
+  }
+  .resume-button-c:hover {
+  color: $secondary-font;
+  background-color: $primary-color;
+  border-color: $primary-color;
+  }
+
+
 #who{
-  background: $primary-color;
+  background: $secondary-font;
   color: white;
   #profile{
     border-radius: 100%;
   }
   h1{
+    color: $pinkish;
     padding-top: 10px;
     font-weight: bolder;
+    text-shadow: 4px 4px 5px black;
   }
   p {
     font-size: 1.2em;
@@ -143,18 +175,24 @@ color: $primary-color;
   }
   span {
     font-weight: bold;
-    color: $secondary-font;
+    color: $pinkish;
   }
 
   button{
     background-color:transparent;
     margin: 30px 5px;
-    border-color: $primary-color;
-    color: $primary-color;
+    border-color: $pinkish;
+    color: $pinkish;
     border-radius: 10px;
     border-width: 3px;
     font-weight: bolder;
-    background-color: white;
+    background-color: $secondary-font;
+  }
+  button:hover {
+  border-color: $secondary-font;
+  background-color: $pinkish;
+  color: $secondary-font;
+
   }
 
 
@@ -162,17 +200,20 @@ color: $primary-color;
 
 footer{
   background: $secondary-font;
-  color: #2199e8;
-  h3{
+  color: white;
+  text-shadow: 4px 4px 5px black;
+
+  h4{
     font-weight: bold;
     padding-top: 15px;
   }
   a i{
+      color: white;
       font-size: 2.2rem;
       padding: 0 10px;
     }
-    a:hover{
-      color: white;
+    a i:hover{
+      color: $pinkish;
     }
 }
 
@@ -182,21 +223,44 @@ footer{
 //this is the hero img
 
 .hero {
-  background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(5,118,160,0.74) 98%, rgba(5,120,163,0.74) 100%);
-  background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(5,118,160,0.74) 98%,rgba(5,120,163,0.74) 100%);
-  background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(5,118,160,0.74) 98%,rgba(5,120,163,0.74) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#bd0578a3',GradientType=0 );
-
+  display: flex;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(5, 120, 163, 1)), url('img/horse.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .hero-text {
+  align-self: center;
   h1, h3 {
+    color: white;
     padding: 0 15%;
   }
   hr {
     width: 25em;
   }
+}
 } //ends hero
 
 .drinks-area{
  background-color:  rgba(5,120,163,0.74);
 }
+
+.row {
+  width: 100%;
+}
+
+//This is for the about
+#who {
+h1 {
+margin: 0 50px;
+}
+#profile {
+  margin: 10px 50px;
+  height: 200px;
+  width: 200px;
+  position:relative;
+}
+
+
+} //ends who
 
 } //ends query
