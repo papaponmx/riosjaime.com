@@ -9,13 +9,20 @@ background-color: $secondary-font;
 color: $primary-font;
 
 }
+a {
+color: $primary-color;
+}
 
 
-.hero-img{
+//Styles for mobile
+
+.hero{
   height: 95%;
   background-color: $primary-color;
+    background: linear-gradient (rgba(5, 120, 163, 0), rgba(221, 221, 221, 1));
   display: flex;
-.content {
+  //Here starts the background.
+.hero-text {
   width: 100%;
   margin: auto;
   align-self: center;
@@ -23,6 +30,10 @@ color: $primary-font;
   color: $primary-font;
   h1 {
   font-weight: bolder;
+  span {
+    color: $secondary-color;
+  }
+
 }
   button {
     background-color:transparent;
@@ -53,7 +64,7 @@ color: $primary-font;
   color: $primary-color;
   font-weight: bolder;
 }
-.soda{
+.drinks-area #soda {
   background-color: $primary-color;
   padding: 10px 0px;
  span img {
@@ -163,7 +174,29 @@ footer{
     a:hover{
       color: white;
     }
-
-
-
 }
+
+
+//Media Queries
+@media screen and (min-width: 40em) {
+//this is the hero img
+
+.hero {
+  background: -moz-linear-gradient(top,  rgba(0,0,0,1) 0%, rgba(5,118,160,0.74) 98%, rgba(5,120,163,0.74) 100%);
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,1) 0%,rgba(5,118,160,0.74) 98%,rgba(5,120,163,0.74) 100%);
+  background: linear-gradient(to bottom,  rgba(0,0,0,1) 0%,rgba(5,118,160,0.74) 98%,rgba(5,120,163,0.74) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#bd0578a3',GradientType=0 );
+
+  h1, h3 {
+    padding: 0 15%;
+  }
+  hr {
+    width: 25em;
+  }
+} //ends hero
+
+.drinks-area{
+ background-color:  rgba(5,120,163,0.74);
+}
+
+} //ends query

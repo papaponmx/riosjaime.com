@@ -1,19 +1,5 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Gist
- @papaponmx
- Unwatch 1
-  Star 0
-  Fork 0 papaponmx/web.riosjaime.com
- Code  Issues 0  Pull requests 0  Wiki  Pulse  Graphs  Settings
-Branch: foundation Find file Copy pathweb.riosjaime.com/index.php
-155a8d4  17 minutes ago
-@papaponmx papaponmx Google Analytics scrit was added in the end and SEO tags have been added
-1 contributor
-RawBlameHistory    173 lines (133 sloc)  6.67 KB
+<?php  ?>
+
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html class="no-js" lang="en" >
@@ -62,16 +48,15 @@ RawBlameHistory    173 lines (133 sloc)  6.67 KB
   </nav>
 
 <!--Here starts the content-->
-<div class="hero-img">
-	<div class="content">
-		<h1>WEB DESIGNER / FRONT-END DEVELOPER / UX DESIGNER</h1>
-    <hr><h3>Hello, I'm Jaime. Specializing in web design, front-end development and digital media.</h3>
+<div class="hero">
+	<div class="hero-text">
+		<h1>WEB DESIGNER / FRONT-END <span>DEVELOPER</span> / UX <span>DESIGNER</span></h1>
+    <hr><h3>Hello, I'm Jaime. I turn black coffee and pizza into awesome websites.</h3>
 
       <div class="text-center">
 
-      <button class="button" id="see-more"><a href="#services">See more!</a></button>
-      <button class="button" id="contact" data-open="contactmodal">Contact me</button>
-
+        <button class="button" id="see-more"><a href="#services">See more!</a></button>
+        <button class="button" id="contact" data-open="contactmodal">Contact me</button>
       </div>
 
 	</div>
@@ -81,9 +66,32 @@ RawBlameHistory    173 lines (133 sloc)  6.67 KB
 <h1 class="text-center">Do you fancy a drink?</h1>
 </div>
 
-  <div class="soda text-center">
 
-  <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="So refreshing!"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda can"/></span>
+<div class="drinks-area text-center">
+    <div class="">
+
+    </div>
+
+    <div class="" id="soda">
+
+      <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="So refreshing!"><img src="img/rect4257.png" alt="This is a refresing beberage" id="soda-can"/></span>
+    </div>
+
+
+  <?php
+  /*
+  if ($a > $b) {
+      echo "a is bigger than b";
+  } elseif ($a == $b) {
+      echo "a is equal to b";
+  } else {
+      echo "a is smaller than b";
+  } */
+  ?>
+    <div class="">
+
+    </div>
+
   </div>
 
 
@@ -171,7 +179,7 @@ RawBlameHistory    173 lines (133 sloc)  6.67 KB
     $(document).foundation();
   </script>
   <!--This is the Google Analytics code -->
-    <script>
+    <script async>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -179,9 +187,6 @@ RawBlameHistory    173 lines (133 sloc)  6.67 KB
 
       ga('create', 'UA-71409801-2', 'auto');
       ga('send', 'pageview');
-
-     </script>
+      </script>
 </body>
 </html>
-Status API Training Shop Blog About Pricing
-© 2016 GitHub, Inc. Terms Privacy Security Contact Help
