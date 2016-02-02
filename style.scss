@@ -6,87 +6,109 @@ $secondary-font: #222;
 $pinkish: #e45;
 $quote-gray: #8a8a8a;
 
-.top-bar, .top-bar ul {
-font-weight: bolder;
-background-color: $secondary-font;
-color: $secondary-color;
+.top-bar,
+.top-bar ul
+{
+    font-weight: bolder;
 
+    color: $secondary-color;
+    background-color: $secondary-font;
 }
-a {
-color: $primary-color;
+a
+{
+    color: $primary-color;
 }
 
 
 //Styles for mobile
 
-.hero{
-  display: flex;
-  height: 95%;
-  background-color: $primary-color;
-  text-shadow: 2px 2px 8px $secondary-font;
-.hero-text {
-  width: 100%;
-  margin: auto;
-  align-self: center;
-  padding: 10px;
-  color: $primary-font;
-  h1 {
-  font-weight: bolder;
-  span {
-    color: $secondary-color;
-  }
+.hero
+{
+    display: flex;
 
-}
-  button {
-    background-color:transparent;
-    border-color: white;
-    color: white;
-    border-radius: 10px;
-    border-width: 3px;
-}
-#contact{
-    font-weight: bolder;
-    color: $primary-color;
-    background-color: white;
-  }
-  #contact:hover {
+    height: 95%;
+
     background-color: $primary-color;
-    color: white;
-  }
+    text-shadow: 2px 2px 8px $secondary-font;
+    .hero-text
+    {
+        width: 100%;
+        margin: auto;
+        padding: 10px;
 
-#see-more {
-    background-color: $secondary-color;
-    border-color: $secondary-font;
-  a {
-    color: $secondary-font;
-    font-weight: bold;
-  }
-}
-#see-more:hover{
-  background-color: $secondary-font;
-  a {
-    color: $secondary-color;
-  }
-}
+        color: $primary-font;
 
-}
+        align-self: center;
+        h1
+        {
+            font-weight: bolder;
+            span
+            {
+                color: $secondary-color;
+            }
+        }
+        button
+        {
+            color: white;
+            border-width: 3px;
+            border-color: white;
+            border-radius: 10px;
+            background-color: transparent;
+        }
+        #contact
+        {
+            font-weight: bolder;
 
+            color: $primary-color;
+            background-color: white;
+        }
+        #contact:hover
+        {
+            color: white;
+            background-color: $primary-color;
+        }
+
+        #see-more
+        {
+            border-color: $secondary-font;
+            background-color: $secondary-color;
+            a
+            {
+                font-weight: bold;
+
+                color: $secondary-font;
+            }
+        }
+        #see-more:hover
+        {
+            background-color: $secondary-font;
+            a
+            {
+                color: $secondary-color;
+            }
+        }
+    }
 } //ENDS .hero-img
 
-#services h1{
-  color: white;
-  font-weight: bolder;
-  background-color: $pinkish;
-  text-shadow: 2px 2px 8px #222;
-  margin-bottom: 0;
-}
-.drinks-area #soda {
-  background-color: $primary-color;
-  padding: 10px 0px;
- span img {
-  max-height: 150px;
+#services h1
+{
+    font-weight: bolder;
 
-  }
+    margin-bottom: 0;
+
+    color: white;
+    background-color: $pinkish;
+    text-shadow: 2px 2px 8px #222;
+}
+.drinks-area #soda
+{
+    padding: 10px 0;
+
+    background-color: $primary-color;
+    span img
+    {
+        max-height: 150px;
+    }
 }
 
 /** This should be in a media query next to the soda
@@ -112,155 +134,199 @@ color: $primary-color;
 
 **/
 
-#what, #what-description,
-.resume-button-c {
-  color: $primary-color;
-  background-color: $secondary-font;
-  display: flex;
-  justify-content: center;
-  h1{
-    padding-top: 10px;
-    font-weight: bolder;
-    margin-bottom: 0px;
-    text-shadow: 1px 1px 5px black;
-    span {
-    color: $secondary-color;
+#what,
+#what-description,
+.resume-button-c
+{
+    display: flex;
+
+    color: $primary-color;
+    background-color: $secondary-font;
+
+    justify-content: center;
+    h1
+    {
+        font-weight: bolder;
+
+        margin-bottom: 0;
+        padding-top: 10px;
+
+        text-shadow: 1px 1px 5px black;
+        span
+        {
+            color: $secondary-color;
+        }
     }
-  }
-  .fi{
-  font-size: 2.5rem;
-  padding: 0 10px;
-  }
-  #ux{
-    padding-bottom: 15px;
-    margin-bottom: 0px;
-  }
-  blockquote {
-  border-left: 0;
-  }
+    .fi
+    {
+        font-size: 2.5rem;
+
+        padding: 0 10px;
+    }
+    #ux
+    {
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    blockquote
+    {
+        border-left: 0;
+    }
 }
 
 
-.resume-button-c #resume-button{
-  margin: 30px 5px;
-  border-color: $primary-color;
-  color: $primary-color;
-  border-radius: 10px;
-  border-width: 3px;
-  font-weight: bolder;
-  background-color: $secondary-font;
-  }
-  .resume-button-c:hover {
-  color: $secondary-font;
-  background-color: $primary-color;
-  border-color: $primary-color;
-  }
-
-
-#who{
-  background: $secondary-font;
-  color: white;
-  #profile{
-    border-radius: 100%;
-  }
-  h1{
-    color: $pinkish;
-    padding-top: 10px;
+.resume-button-c #resume-button
+{
     font-weight: bolder;
-    text-shadow: 4px 4px 5px black;
-  }
-  p {
-    font-size: 1.2em;
-    padding: 20px;
-  }
-  span {
-    font-weight: bold;
-    color: $pinkish;
-  }
 
-  button{
-    background-color:transparent;
     margin: 30px 5px;
-    border-color: $pinkish;
-    color: $pinkish;
-    border-radius: 10px;
+
+    color: $primary-color;
     border-width: 3px;
-    font-weight: bolder;
+    border-color: $primary-color;
+    border-radius: 10px;
     background-color: $secondary-font;
-  }
-  button:hover {
-  border-color: $secondary-font;
-  background-color: $pinkish;
-  color: $secondary-font;
+}
+.resume-button-c:hover
+{
+    color: $secondary-font;
+    border-color: $primary-color;
+    background-color: $primary-color;
+}
 
-  }
 
-
-  }
-
-footer{
-  background: $secondary-font;
-  color: white;
-  text-shadow: 4px 4px 5px black;
-
-  h4{
-    font-weight: bold;
-    padding-top: 15px;
-  }
-  a i{
-      color: white;
-      font-size: 2.2rem;
-      padding: 0 10px;
+#who
+{
+    color: white;
+    background: $secondary-font;
+    #profile
+    {
+        border-radius: 100%;
     }
-    a i:hover{
-      color: $pinkish;
+    h1
+    {
+        font-weight: bolder;
+
+        padding-top: 10px;
+
+        color: $pinkish;
+        text-shadow: 4px 4px 5px black;
+    }
+    p
+    {
+        font-size: 1.2em;
+
+        padding: 20px;
+    }
+    span
+    {
+        font-weight: bold;
+
+        color: $pinkish;
+    }
+
+    button
+    {
+        font-weight: bolder;
+
+        margin: 30px 5px;
+
+        color: $pinkish;
+        border-width: 3px;
+        border-color: $pinkish;
+        border-radius: 10px;
+        background-color: transparent;
+        background-color: $secondary-font;
+    }
+    button:hover
+    {
+        color: $secondary-font;
+        border-color: $secondary-font;
+        background-color: $pinkish;
+    }
+}
+
+footer
+{
+    color: white;
+    background: $secondary-font;
+    text-shadow: 4px 4px 5px black;
+
+    h4
+    {
+        font-weight: bold;
+
+        padding-top: 15px;
+    }
+    a i
+    {
+        font-size: 2.2rem;
+
+        padding: 0 10px;
+
+        color: white;
+    }
+    a i:hover
+    {
+        color: $pinkish;
     }
 }
 
 
 //Media Queries
-@media screen and (min-width: 40em) {
-//this is the hero img
+@media screen and (min-width: 40em)
+{
+    //this is the hero img
 
-.hero {
-  display: flex;
-  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(5, 120, 163, 1)), url('img/horse.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  .hero-text {
-  align-self: center;
-  h1, h3 {
-    color: white;
-    padding: 0 15%;
-  }
-  hr {
-    width: 25em;
-  }
-}
-} //ends hero
+    .hero
+    {
+        display: flex;
 
-.drinks-area{
- background-color:  rgba(5,120,163,0.74);
-}
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(5, 120, 163, 1)), url('img/horse.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        .hero-text
+        {
+            align-self: center;
+            h1,
+            h3
+            {
+                padding: 0 15%;
 
-.row {
-  width: 100%;
-}
+                color: white;
+            }
+            hr
+            {
+                width: 25em;
+            }
+        }
+    } //ends hero
 
-//This is for the about
-#who {
-h1 {
-margin: 0 50px;
-}
-#profile {
-  margin: 10px 50px;
-  height: 200px;
-  width: 200px;
-  position:relative;
-}
+    .drinks-area
+    {
+        background-color: rgba(5,120,163,.74);
+    }
 
+    .row
+    {
+        width: 100%;
+    }
 
-} //ends who
+    //This is for the about
+    #who
+    {
+        h1
+        {
+            margin: 0 50px;
+        }
+        #profile
+        {
+            position: relative;
 
+            width: 200px;
+            height: 200px;
+            margin: 10px 50px;
+        }
+    } //ends who
 } //ends query
