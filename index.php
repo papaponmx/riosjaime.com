@@ -56,7 +56,7 @@
       <div class="text-center">
 
         <button class="button" id="see-more"><a href="#what">See more!</a></button>
-        <button class="button" id="contact" data-open="contactmodal">Contact me</button>
+      <!--  <button class="button" id="contact" data-open="contactmodal">Contact me</button> -->
       </div>
 
 	</div>
@@ -64,34 +64,34 @@
 
 
 
-  <div class="text-center" id="what">
+  <div class="text-center row" id="what">
   <h1>What I <span>can do</span> for you</h1>
-  </div>
-  <div class="text-center row"id="what-description">
-    <br>
-
-    <div class="large-4 columns">
+    <div class="medium-4 columns">
       <h2>Mobile Friendly</h2><i class="fi-monitor fi show-for-medium"> </i><i class="fi-laptop fi"></i>  <i class="fi-mobile fi show-for-medium"></i>
       <blockquote>Awesome, wherever you are.</blockquote>
     </div>
 
-    <div class="large-4 columns">
+    <div class="medium-4 columns">
       <h2>Website Optimization </h2>
       <i class="fi-database fi"></i> <i class="fi-clock fi"></i> <i class="fi-graph-trend fi show-for-medium"></i>
       <blockquote>Make your website faster.</blockquote>
     </div>
 
-    <div class="large-4 columns">
+    <div class="medium-4 columns" id="design">
       <h2>Designs & Interfaces </h2>
       <i class="fi-torsos-all fi show-for-medium"></i> <i class="fi-heart fi"></i> <i class="fi-check fi show-for-medium"></i>
       <blockquote id="ux">Enhanced UX we all love.</blockquote>
     </div>
 
-  </div>
+    <div class="row">
+      <div class="small-3 small-centered columns">
 
-  <div class="text-center resume-button-c">
-    <button class="button" id="resume-button"><a  href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</a></button>
-  </div>
+          <button class="button" id="resume-button"><a  href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</a></button>
+      </div>
+      </div>
+
+</div> <!--Here ends the what row -->
+
 
   <div id="services">
   <h1 class="text-center">Do you fancy a drink?</h1>
@@ -160,7 +160,12 @@
 
 <!--Here is the footer yo! -->
 <footer class="footer text-center">
-	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i> <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i> <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
+	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i>
+
+  <!--<a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i>
+  -->
+
+   <a href="https://github.com/papaponmx"><i class="fi-social-github"></i></a> <a href="https://teamtreehouse.com/jaimemadrigalrios"><i class="fi-social-treehouse"></i></a>
 </footer>
 
 <!--This is the code for the modal -->
