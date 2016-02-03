@@ -6,17 +6,16 @@ $secondary-font: #222;
 $pinkish: #e45;
 $quote-gray: #8a8a8a;
 
+
+
 .top-bar,
-.top-bar ul
+.top-bar ul li a,
+.top-bar-left ul li
 {
     font-weight: bolder;
 
     color: $secondary-color;
-    background-color: $secondary-font;
-}
-a
-{
-    color: $primary-color;
+    background-color: rgba(255,255,255,1);
 }
 
 
@@ -134,12 +133,8 @@ a
 
 **/
 
-#what,
-#what-description,
-.resume-button-c
+#what
 {
-    display: flex;
-
     color: $primary-color;
     background-color: $secondary-font;
 
@@ -174,8 +169,7 @@ a
     }
 }
 
-
-.resume-button-c #resume-button
+#resume-button
 {
     font-weight: bolder;
 
@@ -187,11 +181,14 @@ a
     border-radius: 10px;
     background-color: $secondary-font;
 }
-.resume-button-c:hover
+#resume-button:hover
 {
-    color: $secondary-font;
-    border-color: $primary-color;
-    background-color: $primary-color;
+    border-color: white;
+    background-color: $pinkish;
+    a
+    {
+        color: white;
+    }
 }
 
 
@@ -201,6 +198,8 @@ a
     background: $secondary-font;
     #profile
     {
+        padding: 10px;
+
         border-radius: 100%;
     }
     h1
@@ -282,7 +281,7 @@ footer
     {
         display: flex;
 
-        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(5, 120, 163, 1)), url('img/horse.jpg');
+        background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(5, 120, 163, 1)), /*url('img/horse.jpg') */;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -319,6 +318,7 @@ footer
         h1
         {
             margin: 0 50px;
+            padding-left: 20px;
         }
         #profile
         {
@@ -329,4 +329,5 @@ footer
             margin: 10px 50px;
         }
     } //ends who
+    //ends what
 } //ends query
