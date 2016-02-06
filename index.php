@@ -1,4 +1,4 @@
-<?php  ?>
+<?php ; ?>
 
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
@@ -23,6 +23,11 @@
 
   <!-- My styles -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Here goes the php if statement -->
+
+
+  <!--Here ends the php if -->
 </head>
 <body>
 
@@ -50,12 +55,12 @@
 <!--Here starts the content-->
 <div class="hero">
 	<div class="hero-text">
-		<h1>WEB DESIGNER / FRONT-END <span>DEVELOPER</span> / UX <span>DESIGNER</span></h1>
+		<h1>WEB DESIGNER <span>DESIGNER</span> / FRONT-END <span>DEVELOPER</span> </h1>
     <hr><h3>Hello, I'm Jaime. I turn black coffee and pizza into  engaging websites.</h3>
 
       <div class="text-center">
 
-        <button class="button" id="see-more"><a href="#what">See more!</a></button>
+        <a href="#what"><button class="button" id="see-more">See more!</button></a>
       <!--  <button class="button" id="contact" data-open="contactmodal">Contact me</button> -->
       </div>
 
@@ -86,7 +91,7 @@
     <div class="row">
       <div class="small-3 small-centered columns">
 
-          <button class="button" id="resume-button"><a  href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing">Check my resume</a></button>
+          <a  href="https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing"><button class="button" id="resume-button">Check my resume</button></a>
       </div>
       </div>
 
@@ -143,13 +148,12 @@
 <div class="text-center row" id="who">
 <h1>Who I am</h1>
 
-<div class="medium-3 columns">
+<div class="large-3 columns">
 
   <img id="profile"src="img/profile2.jpg" alt="This is my profile picture" />
 </div>
-<div class="medium-9 columns">
-  <p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span> specialized in <span>UX</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site. My work is driven by equal parts passion and complete nerddom.
-    </p>
+<div class="large-9 columns">
+  <p class="text-justify"> Hello, my name is Jaime Rios. I'm a qualified <span>Front End Developer</span>, with a good grasp of <span>PHP</span> and <span>WordPress</span>. I am ready to advise and educate on how to optimize your users' experience on your site. My work is mainly focused in User Centered Design and all the fancy words like: web standards, accesibility, cross-browser compatibility, you name it.</p>
 </div>
 
       <button class="button" id="contact" href="#" data-open="contactmodal">Contact me</button>
