@@ -69,16 +69,16 @@ $quote-gray: #8a8a8a;
 
         #see-more
         {
+            font-weight: bold;
+
+            color: $secondary-font;
             border-color: $secondary-font;
             background-color: $secondary-color;
-            font-weight: bold;
-            color: $secondary-font;
-
         }
         #see-more:hover
         {
-            background-color: $secondary-font;
             color: $secondary-color;
+            background-color: $secondary-font;
         }
     }
 } //ENDS .hero-img
@@ -179,10 +179,7 @@ $quote-gray: #8a8a8a;
 {
     border-color: white;
     background-color: $pinkish;
-    a
-    {
-        color: white;
-    }
+    color: white;
 }
 
 
