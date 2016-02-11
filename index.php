@@ -164,7 +164,7 @@
 
 <!--Here is the footer yo! -->
 <footer class="footer text-center">
-	<h4 class="">My social networks  </h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i>
+	<h4 class="">Where to get a hold of me:</h4><a href="https://facebook.com/jaimemadrigalrios"><i class="fi-social-facebook"></i>
 
   <!--<a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i>
   -->
@@ -219,7 +219,7 @@
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-71409801-2', 'auto');
+      ga('create', 'UA-71409801-1', 'auto');
       ga('send', 'pageview');
       </script>
 </body>
