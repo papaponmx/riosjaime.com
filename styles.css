@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+  background-color: #23211F; }
+
+.cover__container {
+  width: 100vw;
+  height: 100vh;
+  color: #FFF5A0;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .cover__container h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 78px;
+    -webkit-align-self: center;
+    align-self: center;
+    letter-spacing: 2px;
+    width: 30em;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 7s steps(50, end);
+    animation: type 7s steps(3, end); }
+
+@keyframes type {
+  from {
+    width: 0; } }
+@-webkit-keyframes type {
+  from {
+    width: 0; } }
