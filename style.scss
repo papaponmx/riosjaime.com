@@ -163,23 +163,22 @@ $quote-gray: #8a8a8a;
     }
 }
 
-#resume-button
+.button.hollow.secondary
 {
-    font-weight: bolder;
+    font-weight: bold;
 
     margin: 30px 5px;
 
-    color: $primary-color;
     border-width: 3px;
-    border-color: $primary-color;
     border-radius: 10px;
-    background-color: $secondary-font;
 }
-#resume-button:hover
+
+#playground:hover
 {
+    color: white;
+    border-width: 5px;
     border-color: white;
     background-color: $pinkish;
-    color: white;
 }
 
 
