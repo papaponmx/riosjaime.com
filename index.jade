@@ -1,0 +1,138 @@
+doctype html
+//
+  if IE 9html.lt-ie10(lang='en')
+html.no-js(lang='en')
+  head
+    meta(charset='utf-8')
+    // If you delete this meta tag World War Z will become a reality
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    // This meta tags improve SEO
+    meta(name='description', content='Freelance Front-End Developer/ UX Designer providing the best web development services located in Mexico City')
+    meta(name='author', content='Jaime Madrigal Rios')
+    title Web Developer
+    // If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like
+    // <link rel="stylesheet" href="css/normalize.css">
+    link(rel='icon', type='image/png', href='http://riosjaime.com/favicon.ico')
+    link(rel='stylesheet', href='css/foundation.min.css')
+    link(rel='stylesheet', href='css/foundation-icons.css')
+    // My styles
+    link(rel='stylesheet', href='css/style.css')
+    // Here goes the php if statement
+    // Here ends the php if
+  body
+    // Navigation starts here
+    nav.title-bar(data-responsive-toggle='example-menu', data-hide-for='medium')
+      button.menu-icon(type='button', data-toggle='')
+      .title-bar-title Jaime Rios
+    nav#example-menu.top-bar
+      .top-bar-left
+        ul.dropdown.menu(data-dropdown-menu='')
+      .top-bar-right
+        ul.menu
+          li
+            a(href='#what') Services
+          li
+            a(href='#who') About
+          li
+            a#contact(data-open='contactmodal') Contact me
+    // Here starts the content
+    .hero.text-center
+      h1.hero-txt Jaime Rios
+      h2 Creative Front-End Developer
+      h3.help-text I turn black coffee and pizza into  engaging websites.
+      a.hero-link(href='#what')
+        h4#see-more 
+          div 
+            i.fi-arrow-down
+    #what.text-center.row
+      .medium-4.columns.what-elements
+        h1.what-title What I do 
+      .medium-4.columns.what-elements
+        h2 Respinsive Design
+        i.fi-monitor.fi
+        i.fi-laptop.fi
+        i.fi-mobile.fi.
+        blockquote Awesome, wherever you are.
+      .medium-4.columns.what-elements
+        h2 Website Optimization
+        i.fi-database.fi
+        i.fi-clock.fi
+        i.fi-graph-trend.fi.show-for-medium
+        blockquote Make your website faster.
+      #design.medium-4.columns.what-elements
+        h2 Designs & Interfaces
+        i.fi-torsos-all.fi.show-for-medium
+        i.fi-heart.fi
+        i.fi-check.fi.show-for-medium
+        blockquote#ux Enhanced UX we all love.
+      .row
+        .small-3.small-centered.columns
+          a.playground(href='http://playground.riosjaime.com')
+            button#playoground.button.secondary.hollow.hide-for-small-only See fonts playground
+    // Here ends the what row
+    #services
+      h1.text-center Do you fancy a drink?
+    .drinks-area.text-center
+      div
+      #soda
+        span.has-tip(data-tooltip='', aria-haspopup='true', data-disable-hover='false', tabindex='1', title='So refreshing!')
+          img#soda-can(src='img/rect4257.png', alt='This is a refresing beberage')
+      div
+    //
+      This logo is not so relevant for the user, it just enhances the UX
+      <div class="text-center row" id="ship">
+      <span data-tooltip aria-haspopup="true" class="has-tip" data-disable-hover='false' tabindex=1 title="Say Aaaarrrrgggghhhh!"><img src="img/ship.png" alt="This is a ship logo" id="ship-logo"/></span>
+      </div>
+    #who.text-center.row
+      h1 About me
+      .large-3.columns
+        img#profile(src='img/profile2.jpg', alt='This is my profile picture')
+      .large-9.columns
+        p.text-justify
+          | Hello, my name is Jaime Rios. I'm a qualified
+          span Front End Developer
+          | , with a good grasp of
+          span PHP
+          |  and
+          span WordPress
+          | . I am ready to advise and educate on how to optimize your users' experience on your site. My work is mainly focused in User Centered Design and all the fancy words like: web standards, accesibility, cross-browser compatibility, you name it.
+      button#contact.button(href='#', data-open='contactmodal') Contact me
+      a(href='https://docs.google.com/document/d/1bKqVbohnl_aCA1EHmIoE0xgsX-679TPOSjP5Pi5irTo/edit?usp=sharing')
+        button#contact.button Check my resume
+    // Here is the footer yo!
+    footer.footer.text-center
+      h4 Where to get a hold of me
+      a(href='https://facebook.com/jaimemadrigalrios')
+        i.fi-social-facebook
+        //
+          <a href="https://twitter.com/papaponmx"><i class="fi-social-twitter"></i>
+        a(href='https://github.com/papaponmx')
+          i.fi-social-github
+        a(href='https://teamtreehouse.com/jaimemadrigalrios')
+          i.fi-social-treehouse
+    // This is the code for the modal
+    #contactmodal.reveal(data-reveal='')
+      h3
+        | Want to discuss your website plans? Have an offer I couldn't refuse? Just say it.
+      // Here starts the form
+      #contact.containter-fluid.portfolio.contact-background
+        form(method='post', action='contact-process.php')
+          .form-group
+            label.h4(for='name') Name
+            input#name.form-control(type='text', name='Name', placeholder='Enter name', required='')
+          .form-group
+            label.h4(for='email') Email
+            input#email.form-control(type='email', name='Email', placeholder='Enter email', required='')
+          .form-group
+            label.h4(for='message') Message
+            textarea#message.form-control.col-sm-12(rows='5', name='Message', placeholder='Enter your message', required='')
+          button#form-submit.large.button(type='submit') Submit
+      button.close-button(data-close='', aria-label='Close modal', type='button')
+        span(aria-hidden='true') ×
+    // Release the SCRIPTS!
+    script(src='js/vendor/jquery.min.js')
+    script(src='js/foundation.min.js')
+    script.
+      $(document).foundation();
+    // This is the Google Analytics code
+    script(async='async').
