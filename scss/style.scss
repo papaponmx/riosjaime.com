@@ -1,4 +1,4 @@
-//variables
+//variables andd mixins are included here
 @import "variables";
 body {
   overflow-x: hidden;
@@ -6,6 +6,8 @@ body {
 
 //hero cover
 @import "hero";
+//about me
+@import "hello";
 
 // what section
-@import "what";
+//@import "what";

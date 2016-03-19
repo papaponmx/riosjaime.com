@@ -1,2 +1,11 @@
 $red: #e0340f;
 $black: #ddd;
+$div-height: 95%;
+
+@mixin div-format($height: $div-height) {
+  height: $height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+}
