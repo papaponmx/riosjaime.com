@@ -1,17 +1,1 @@
-<<<<<<< HEAD
-body{overflow-x:hidden}.hero{height:95%;background-color:#ddd;display:flex;flex-direction:column;justify-content:center;max-width:100%}.hero .hero-txt{align-self:center}.hero .hero-link{margin-bottom:1em;background-color:#ddd;padding:.5em;margin-top:3em}.hero-link h4 div{color:black;font-size:2em;animation:move 2.5s 3s ease infinite}@keyframes move{50%{transform:translate(0px, 1em)}}.fi-arrow-down{color:#3c4347}#hello{color:white;background:black;height:100%;display:flex;flex-direction:column;justify-content:center;max-width:100%}#hello button{float:right;margin:0px 2em}@-webkit-keyframes lightSpeedIn{from{-webkit-transform:translate3d(100%, 0, 0) skewX(-30deg);transform:translate3d(100%, 0, 0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{from{-webkit-transform:translate3d(100%, 0, 0) skewX(-30deg);transform:translate3d(100%, 0, 0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}
-=======
-/*this is a comment */
-/**
-Theme Name: Bootstrap to WordPress
-Author: Jaime Rios
-Author URI: http://www.web.riosjaime.com/
-Description: This is my first attempt to convert static Bootstrap site
-Version: 1.0
-License: GNU Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
-Text Domain: bootstrap-to-wp
-
-This theme, like WordPress, is licensed under the GPL. Use it to make something cool, have fun and share what you've learned with others.
- **/
->>>>>>> 65645d1c4f03a6cfb9e39ade24248ac34e371789
+body{overflow-x:hidden}.hero{height:95%;background-color:#ddd;display:flex;flex-direction:column;justify-content:center;max-width:100%}.hero .hero-txt{align-self:center}.hero .hero-link{margin-bottom:1em;background-color:#ddd;padding:.5em;margin-top:3em}.hero-link h4 div{color:black;font-size:2em;animation:move 2.5s 3s ease infinite}@keyframes move{50%{transform:translate(0px, 1em)}}.fi-arrow-down{color:#3c4347}#hello{color:white;background:black;height:100vh;display:flex;flex-direction:column;justify-content:center;max-width:100%}#hello button{float:right;margin:0px 2em}#smile{border-radius:100%;width:9em;margin-bottom:2em}@-webkit-keyframes lightSpeedIn{from{-webkit-transform:translate3d(100%, 0, 0) skewX(-30deg);transform:translate3d(100%, 0, 0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}@keyframes lightSpeedIn{from{-webkit-transform:translate3d(100%, 0, 0) skewX(-30deg);transform:translate3d(100%, 0, 0) skewX(-30deg);opacity:0}60%{-webkit-transform:skewX(20deg);transform:skewX(20deg);opacity:1}80%{-webkit-transform:skewX(-5deg);transform:skewX(-5deg);opacity:1}to{-webkit-transform:none;transform:none;opacity:1}}.lightSpeedIn{-webkit-animation-name:lightSpeedIn;animation-name:lightSpeedIn;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}

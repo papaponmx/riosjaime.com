@@ -1,12 +1,19 @@
 #hello {
   color: white;
   background: black;
-  @include div-format(100%);
+  @include div-format(100vh);
   button {
     float:right;
     margin: 0px 2em;
   }
 
+}
+
+
+#smile {
+  border-radius: 100%;
+  width: 9em;
+  margin-bottom: 2em;
 }
 
 
