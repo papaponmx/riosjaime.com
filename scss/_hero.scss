@@ -8,21 +8,34 @@
   .hero-txt{
     align-self: center;
   }
-  .hero-link {
+  .hero-link{
     margin-bottom: 1em;
     background-color: $black;
     padding: .5em;
     margin-top: 3em;
 
     } //end .hero-link
+  .hero-link:hover {
+    i.fi-arrow-down{
+    color: $action-color;
+  }
+  }
+
 } // end .hero
 
 
 // .hero Animations
+
+// arrow movement
 .hero-link h4 div {
    color: black;
    font-size: 2em;
-    animation: move 2.5s 3s ease infinite;
+   background-color: rgba(251, 251, 251, 0);
+   border-radius: 100%;
+   padding: 1em 0;
+   //width: 200px;
+   animation: move 2.5s 3s ease infinite;
+
 
  }
 
@@ -33,5 +46,24 @@
  }
  .fi-arrow-down {
    color: #3c4347;
-
  }
+
+// hover circles
+.hero-link h4 div:hover{
+    animation-play-state: paused;
+    padding: 1em;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px black ;
+  //  animation-play-state: running;
+    animation: circles 1s 1s linear ease infinite;
+
+}
+
+keyframes circles {
+  0%{ box-shadow: 0 0 0 5px black; opacity:1; }
+  25%{ box-shadow: 0 0 0 1px black; opacity:1;}
+  50%{ box-shadow: 0 0 0 7px black; opacity:1; }
+  75%{ box-shadow: 0 0 0 4px black; opacity:1;}
+  100%{ box-shadow: 0 0 0 5px black; opacity:1;}
+  100%{ box-shadow: 0 0 0 5px black; opacity:1;}
+}

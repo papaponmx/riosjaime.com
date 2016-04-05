@@ -1,6 +1,9 @@
 $red: #e0340f;
 $black: #ddd;
+$action-color: #c324a0;
 $div-height: 95%;
+$bounce-color   :   #4db8d6;
+
 
 @mixin div-format($height: $div-height) {
   height: $height;
